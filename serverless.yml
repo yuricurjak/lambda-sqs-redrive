@@ -1,0 +1,17 @@
+service: functionredriveqeue
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: us-west-2
+  memorySize: 128
+  timeout: 20
+
+functions:
+  redrive:
+    handler: handler.functionredriveqeue
+    events:
+      - http:
+          path: /redrive
+          method: post   

@@ -1,0 +1,15 @@
+{
+  "name": "functionredriveqeue",
+  "version": "1.0.0",
+  "description": "Function to send messages from dead queue to main queue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuri Curjak",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.606.0"
+  }
+}
